@@ -1,0 +1,24 @@
+usisng System Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Playerhttps://github.com/K1ngKyl3/Player-script/pulse : Monobehaviour
+{
+    //Player Health
+    private int.PlayerHealth = 10;
+
+    //Number of coins collected
+    private int coins;
+
+    //The fireball prefab and the transform parameter of the attack
+    public CameObject fireballPrefab;
+    public Transform attackPoint
+
+//A method that lowers the players health
+    public void TakeDamage(int damage)
+    { 
+        health=damage;
+        print("player's health:" + health);
+
+        
+}
