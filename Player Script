@@ -19,6 +19,28 @@ public class Playerhttps://github.com/K1ngKyl3/Player-script/pulse : Monobehavio
     { 
         health=damage;
         print("player's health:" + health);
+    }
+
+    //Method that increases the number of coins
+    public void CollectCoins()
+    {
+      coins++;
+      print("Collected coins:" + coins);
+    }
+
+
+    void Update()
+    {
+
+      //if the player clicks the eft mouse button a fireball is created
+      if (Input GetMouseButtonDown(0))
+      {
+        Instantiate(FireballPrefab,attackPoint.positon,attackPoint.rotation);
+      }
+
+     }
+
 
         
-}
+   }
+  }
